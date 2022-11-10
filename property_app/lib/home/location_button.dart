@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+//import 'package:url_launcher/url_launcher.dart';
 
 class LocationButton extends StatefulWidget {
   double longitude;
@@ -53,10 +53,10 @@ class _LocationButtonState extends State<LocationButton> {
   }
 
   Future<void> _launchUrl(String urn) async {
-    Uri url=Uri.parse(urn);
-    if (!await launchUrl(url)) {
-      throw 'Could not launch $url';
-    }
+    //Uri url=Uri.parse(urn);
+    //if (!await launchUrl(url)) {
+    //  throw 'Could not launch $url';
+    //}
   }
   List<double> getDegMinSec(double input){
     List<double> res=List.filled(3, 0);

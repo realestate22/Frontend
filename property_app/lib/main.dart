@@ -2,21 +2,23 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:property_app/home/item_card.dart';
 import 'package:property_app/saved/saved.dart';
 import 'package:property_app/account/account.dart';
 import 'package:property_app/home/home_section.dart';
 import 'package:property_app/loading.dart';
-
+import 'package:firebase_core/firebase_core.dart';
 import 'home/property_item.dart';
 
-void main()  {
+Future<void> main()  async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(
     MaterialApp(
       home: MyApp()
     )
   );
 }
+
 
 
 
@@ -89,7 +91,6 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     Size size=MediaQuery.of(context).size;
-    print(size);
     return Scaffold(
         body: Stack(
         children:[
