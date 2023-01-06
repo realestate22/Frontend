@@ -32,8 +32,8 @@ class _ItemCardState extends State<ItemCard> {
         }));
       },
       child: Container(//Item Booking
-        margin: const EdgeInsets.only(bottom: 10,left : 35, right: 35),
-        width: 340,
+        margin: const EdgeInsets.only(bottom: 10,left : 20, right: 20),
+        width: 380,
         decoration: const BoxDecoration(
           color: Color.fromARGB(128, 240, 192, 128),
           borderRadius: BorderRadius.all(Radius.circular(15))
@@ -44,7 +44,7 @@ class _ItemCardState extends State<ItemCard> {
               children: [
                 Container(
                   //color: Colors.amber,
-                  width: 340,
+                  width: 380,
                   height: 200,
                   decoration: const BoxDecoration(
                     color: Color.fromARGB(128, 240, 192, 128),
@@ -93,7 +93,7 @@ class _ItemCardState extends State<ItemCard> {
                   children: [
                     Container(
                       //color: Colors.orange,
-                      width: 300,
+                      width: 340,
                       height: 40,
                       margin: const EdgeInsets.fromLTRB(0, 5, 0, 0),
                       child: Row(

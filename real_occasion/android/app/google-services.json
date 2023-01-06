@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "227803563274",
+    "firebase_url": "https://real-estate-de0e4-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "real-estate-de0e4",
+    "storage_bucket": "real-estate-de0e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227803563274:android:692545b50ce41a9f14e6f3",
+        "android_client_info": {
+          "package_name": "com.re.real_occasion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227803563274-gsir8shubj90sshh4ppacq0o5d7l6jgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC52zXCKS6EYHTOcVLeJ-_NfU6MZq3VuS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227803563274-gsir8shubj90sshh4ppacq0o5d7l6jgr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227803563274:android:fe89e01ab0d437f714e6f3",
+        "android_client_info": {
+          "package_name": "com.realestate.property_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227803563274-gsir8shubj90sshh4ppacq0o5d7l6jgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC52zXCKS6EYHTOcVLeJ-_NfU6MZq3VuS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227803563274-gsir8shubj90sshh4ppacq0o5d7l6jgr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

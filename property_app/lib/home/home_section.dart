@@ -1,9 +1,9 @@
-
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:property_app/home/item_card.dart';
 import 'package:property_app/home/property_item.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:property_app/home/search.dart';
+
+import 'filter_button.dart';
 
 class Home extends StatefulWidget {
   List<PropertyItem> items;
@@ -32,51 +32,8 @@ class _HomeState extends State<Home> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                SizedBox(
-                  width: size.width*3/4,
-                  child: TextField(
-                    decoration: InputDecoration(
-                      contentPadding: EdgeInsets.fromLTRB(10,10,10,0),
-                      prefixIcon: Icon(
-                        Icons.search,
-                        color: Colors.white
-                      ),
-                      alignLabelWithHint: true,
-                      fillColor: Colors.white30,
-                      filled: true,
-                      hintText: "Search:",
-                      hintStyle: TextStyle(
-                        color: Colors.white
-                      ),
-                      border: OutlineInputBorder(),
-                    ),
-                    onChanged: (value) {
-                    },
-                    style: TextStyle(
-                      color: Colors.white,
-                      decoration: TextDecoration.none,
-                    ),
-                    onSubmitted: (value) {
-                      print("Enter: "+value);
-                    },
-                  ),
-                ),
-                Container(
-                  width: 40,
-                  height: 40,
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(50),
-                  ),
-                  child: IconButton(
-                    onPressed: (){},
-                    icon: const FaIcon(
-                      FontAwesomeIcons.filter,
-                      color: Colors.blue,
-                      size: 20,
-                    )
-                  ),
-                )
+                Search(),
+                FilterButton(),
               ],
             ),
           ),

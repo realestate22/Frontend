@@ -94,7 +94,9 @@ class _ItemDetailedState extends State<ItemDetailed> {
                       SizedBox(
                         height: 250,
                       ),
+
                       Row(
+
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
@@ -149,12 +151,12 @@ class _ItemDetailedState extends State<ItemDetailed> {
                             margin: EdgeInsets.symmetric(horizontal: 10),
                             width: size.width,
                             height: 1,
-                            color: Colors.grey,
+                            color: Color.fromRGBO(255, 255, 255, 0.15),
                           )
                         ),
                       ),
                       Container(
-                        margin: const EdgeInsets.symmetric(horizontal: 10,vertical:10),
+                        margin: const EdgeInsets.all(10),
                         child: Row(
                           children: [
                             Container(

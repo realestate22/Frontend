@@ -77,7 +77,8 @@ class _MyAppState extends State<MyApp> {
       currentPage=page;
       print(currentPage);
       if(!scrolling) {
-        pageController.animateToPage(
+        pageController
+            .animateToPage(
           page, duration: Duration(milliseconds: diff*250), curve: Curves.easeInOut
         );
       }
