@@ -1,0 +1,88 @@
+name: real_estate_v02
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.4
+  firebase_database: ^10.0.6
+  firebase_auth: ^4.1.4
+  firebase_core: ^2.3.0
+  cached_network_image: ^3.2.3
+  flutter_cache_manager: ^3.3.0
+  google_maps_flutter: ^2.2.1
+  geolocator: ^9.0.2
+  icon_decoration: ^1.0.1
+  google_sign_in: ^5.4.2
+  flutter_svg: ^1.1.6
+  dio: ^4.0.6
+  video_player: ^2.4.10
+  cached_video_player: ^2.0.3
+  permission_handler: ^10.2.0
+  path_provider: ^2.0.11
+  json_cache: ^1.5.0
+  connectivity_plus: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo_black.png
+    - assets/images/logo_white.png
+    - assets/images/google_icon.svg
+
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/avenir/AvenirLTStd-Black.otf
+        - asset: assets/fonts/avenir/AvenirLTStd-Book.otf
+        - asset: assets/fonts/avenir/AvenirLTStd-Roman.otf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Black.ttf
+        - asset: assets/fonts/poppins/Poppins-BlackItalic.ttf
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+        - asset: assets/fonts/poppins/Poppins-BoldItalic.ttf
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+        - asset: assets/fonts/poppins/Poppins-ExtraBoldItalic.ttf
+        - asset: assets/fonts/poppins/Poppins-ExtraLight.ttf
+        - asset: assets/fonts/poppins/Poppins-ExtraLightItalic.ttf
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+        - asset: assets/fonts/poppins/Poppins-LightItalic.ttf
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+        - asset: assets/fonts/poppins/Poppins-MediumItalic.ttf
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-Italic.ttf
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+        - asset: assets/fonts/poppins/Poppins-SemiBoldItalic.ttf
+        - asset: assets/fonts/poppins/Poppins-Thin.ttf
+        - asset: assets/fonts/poppins/Poppins-ThinItalic.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Black.ttf
+        - asset: assets/fonts/roboto/Roboto-BlackItalic.ttf
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+        - asset: assets/fonts/roboto/Roboto-BoldItalic.ttf
+        - asset: assets/fonts/roboto/Roboto-Light.ttf
+        - asset: assets/fonts/roboto/Roboto-LightItalic.ttf
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+        - asset: assets/fonts/roboto/Roboto-MediumItalic.ttf
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+        - asset: assets/fonts/roboto/Roboto-Italic.ttf
+        - asset: assets/fonts/roboto/Roboto-Thin.ttf
+        - asset: assets/fonts/roboto/Roboto-ThinItalic.ttf
